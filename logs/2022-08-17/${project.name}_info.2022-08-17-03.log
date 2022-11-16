@@ -1,0 +1,7 @@
+[${project.name}][${env:SERVER_PORT}] 2022-08-17 04:00:21,968 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [26.26.26.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-08-17 04:00:21,972 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [26.26.26.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-08-17 04:00:21,974 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-08-17 04:00:21,974 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [26.26.26.1:56020]
+[${project.name}][${env:SERVER_PORT}] 2022-08-17 04:00:21,974 DEBUG [PollingServerListUpdater-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[26.26.26.1:56020]}
+[${project.name}][${env:SERVER_PORT}] 2022-08-17 04:00:21,974 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[${project.name}][${env:SERVER_PORT}] 2022-08-17 04:00:21,974 DEBUG [PollingServerListUpdater-1][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [26.26.26.1:56020]

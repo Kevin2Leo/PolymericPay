@@ -1,0 +1,33 @@
+[${project.name}][${env:SERVER_PORT}] 2022-08-16 16:15:00,315 ERROR [dubbo-client-idleCheck-thread-1][ReconnectTimerTask.java:51] -  [DUBBO] Fail to connect to HeaderExchangeClient [channel=org.apache.dubbo.remoting.transport.netty4.NettyClient [192.168.81.75:0 -> /192.168.81.75:20891]], dubbo version: 2.7.3, current host: 192.168.81.75
+org.apache.dubbo.remoting.RemotingException: Failed connect to server /192.168.81.75:20891 from NettyClient 192.168.81.75 using dubbo version 2.7.3, cause: Connect wait timeout: 3000ms.
+	at org.apache.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:195)
+	at org.apache.dubbo.remoting.transport.AbstractClient.reconnect(AbstractClient.java:246)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeClient.reconnect(HeaderExchangeClient.java:155)
+	at org.apache.dubbo.remoting.exchange.support.header.ReconnectTimerTask.doTask(ReconnectTimerTask.java:49)
+	at org.apache.dubbo.remoting.exchange.support.header.AbstractTimerTask.run(AbstractTimerTask.java:87)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:648)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:727)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$Worker.run(HashedWheelTimer.java:449)
+	at java.lang.Thread.run(Thread.java:748)
+[${project.name}][${env:SERVER_PORT}] 2022-08-16 16:28:13,303 ERROR [dubbo-client-idleCheck-thread-1][ReconnectTimerTask.java:51] -  [DUBBO] Fail to connect to HeaderExchangeClient [channel=org.apache.dubbo.remoting.transport.netty4.NettyClient [192.168.81.75:0 -> /192.168.81.75:20891]], dubbo version: 2.7.3, current host: 192.168.81.75
+org.apache.dubbo.remoting.RemotingException: Failed connect to server /192.168.81.75:20891 from NettyClient 192.168.81.75 using dubbo version 2.7.3, cause: Connect wait timeout: 3000ms.
+	at org.apache.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:195)
+	at org.apache.dubbo.remoting.transport.AbstractClient.reconnect(AbstractClient.java:246)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeClient.reconnect(HeaderExchangeClient.java:155)
+	at org.apache.dubbo.remoting.exchange.support.header.ReconnectTimerTask.doTask(ReconnectTimerTask.java:49)
+	at org.apache.dubbo.remoting.exchange.support.header.AbstractTimerTask.run(AbstractTimerTask.java:87)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:648)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:727)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$Worker.run(HashedWheelTimer.java:449)
+	at java.lang.Thread.run(Thread.java:748)
+[${project.name}][${env:SERVER_PORT}] 2022-08-16 16:42:27,317 ERROR [dubbo-client-idleCheck-thread-1][ReconnectTimerTask.java:51] -  [DUBBO] Fail to connect to HeaderExchangeClient [channel=org.apache.dubbo.remoting.transport.netty4.NettyClient [192.168.81.75:0 -> /192.168.81.75:20891]], dubbo version: 2.7.3, current host: 192.168.81.75
+org.apache.dubbo.remoting.RemotingException: Failed connect to server /192.168.81.75:20891 from NettyClient 192.168.81.75 using dubbo version 2.7.3, cause: Connect wait timeout: 3000ms.
+	at org.apache.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:195)
+	at org.apache.dubbo.remoting.transport.AbstractClient.reconnect(AbstractClient.java:246)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeClient.reconnect(HeaderExchangeClient.java:155)
+	at org.apache.dubbo.remoting.exchange.support.header.ReconnectTimerTask.doTask(ReconnectTimerTask.java:49)
+	at org.apache.dubbo.remoting.exchange.support.header.AbstractTimerTask.run(AbstractTimerTask.java:87)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:648)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:727)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$Worker.run(HashedWheelTimer.java:449)
+	at java.lang.Thread.run(Thread.java:748)
